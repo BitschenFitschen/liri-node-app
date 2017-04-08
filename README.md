@@ -1,10 +1,25 @@
 # liri-node-app
 
-Liri is a command line node app that takes in parameter and gives you back data. You are give the option to chose what information they want back and a search in each category and return the information displayed.
+Liri is a command line node app that takes in parameter and gives you back data. You are given the option to chose what information you wish to have returned, as well as continue to search in a category for specific data.
 
-Things to search:
-Twitter: see the last 20 tweets that were posted by the username: WhataFitch...yay
+When running node liri.js
 
-spotify: search info about different songs and artists, as well as album, release, etc.
+choose between categories: Tweets, Spotify-this-song, or Movie
 
-omdb: look up a movie and return info about said movie from IMDB
+Then
+type = tweets
+1. read through my last 20 tweets
+
+type = spotify-this-song
+2. look up info about a song
+
+type = movie
+3. look up infomation about a movie
+
+
+NPM used:
+FS
+Prompt
+Twitter
+Spotify
+Request
